@@ -14,10 +14,7 @@
     
 }
 
-@font-face {
-    font-family: 'DeathStar';
-    src: url("../../shared/fonts/DeathStar.otf") format('opentype'); /* Формат шрифта otf */
-}
+
 
 .test {
     font-family: 'DeathStar', sans-serif; /* Если шрифт не найден, используем sans-serif */

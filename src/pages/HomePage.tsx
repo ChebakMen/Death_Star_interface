@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import LiquidStorage from '../widgets/liquidStorage/LiquidStorage'
 
 
 const Home: React.FunctionComponent = () => {
     return (
-        <HomeText>HomePage</HomeText>
+        <LiquidStorage/>
     )
 }
 
