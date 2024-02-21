@@ -2,21 +2,24 @@ import React from 'react'
 import styled from 'styled-components'
 
 import LiquidStorage from '../widgets/liquidStorage/LiquidStorage'
+import AtmosphereGenerator from '../widgets/atmosphereGenerator/AtmosphereGenerator'
 
 
 const Home: React.FunctionComponent = () => {
     return (
-        <LiquidStorage/>
-    )
+        <>
+           <HomeCont>
+                <LiquidStorage />
+                <AtmosphereGenerator/>
+           </HomeCont>
+        </>
+    )   
 }
 
 export default Home
 
 
-const HomeText = styled.div`
+const HomeCont = styled.div`
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 50px;
-    height: 70vh;
+    gap: 57px;
 `
