@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import LiquidStorage from '../widgets/liquidStorage/LiquidStorage'
 import AtmosphereGenerator from '../widgets/atmosphereGenerator/AtmosphereGenerator'
+import Magneticsystem from 'widgets/magneticSystem/Magneticsystem'
 
 
 const Home: React.FunctionComponent = () => {
@@ -10,7 +11,7 @@ const Home: React.FunctionComponent = () => {
         <>
            <HomeCont>
                 <LiquidStorage />
-                <AtmosphereGenerator/>
+                <Magneticsystem/>
            </HomeCont>
         </>
     )   

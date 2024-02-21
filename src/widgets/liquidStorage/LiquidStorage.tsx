@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import { useState } from 'react'
 
 import "./LiquidStorage.css"
+import SectionTitle from 'entities/sectionTitle/SectionTitle'
 
 
 const LiquidStorage: React.FunctionComponent = () => {
@@ -12,7 +13,8 @@ const LiquidStorage: React.FunctionComponent = () => {
 
     return (
         <div className="liquid-storage">
-            <h2 className="title-system">Жидкостное хранилище</h2>
+            <SectionTitle titleType={1} titleText="Жидкостное хранилище" />
+            
             <div className="liquid-storage-container">
                 <div className="liquid-storage-level">
                     <div className="liquid-storage-fill" style={{ height: `${fillPercentage}%` }}></div>
