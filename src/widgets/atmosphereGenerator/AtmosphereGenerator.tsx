@@ -46,9 +46,4 @@ const AtmosphereGenerator:FC = () => {
 }
 
 
-    
-
-    
-
-
 export default AtmosphereGenerator;

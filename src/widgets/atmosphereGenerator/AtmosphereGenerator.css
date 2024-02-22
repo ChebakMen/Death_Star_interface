@@ -1,30 +1,22 @@
-@font-face {
-    font-family: 'Rubik';
-    src: url();
-}
-
-
 .wrap{
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 453px;
-    height: 367px;
+    height: 312px;
     background-color: #1F2347;
     box-sizing: border-box;
     border-radius: 24px;
+    /* margin-top: 184px; */
 }
-.title{
-    display: iblock;
-    background-color: #373F7B;
-    border-radius: 10px;
-    padding: 7px 16px;
+.title {
+    justify-content: center;
+    margin: 21px 55px 0;
+    width: 343px;
     height: 47px;
-    width: 326px;
-    margin-top: 21px;
-    text-align: center;
-    
-    box-sizing: border-box;
+    background-color: #373F7B;
+    border-radius: 8px;
+    padding: 7px 16px;
 }
 .title--text{
     font-size: 25px;
@@ -52,6 +44,7 @@
 .text--modal{
     font-family: "Rubik", sans-serif;
     max-width: 240px;
+    
     font-size: 15px;
     color:#A5A7B5;
     font-weight: 400;
