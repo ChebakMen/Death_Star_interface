@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import * as FaIcons from 'react-icons/fa' 
-
 import { SidebarData } from '../../shared/sidebar/SidebarData'
 
 import styled from 'styled-components'
@@ -13,11 +11,6 @@ import "./sidebar.css"
 import meinImg from "../../shared/icons/mein.svg"
 
 import Subtract from "../../shared/icons/Subtract.svg"
-
-//import "./DeathStar.otf"
-
-
-//const tempIcon = require('.../shared/icons/Group1.png');
 
 const Sidebar: React.FunctionComponent = () => {
     const [close, setClose] = useState(false)
@@ -41,7 +34,7 @@ const Sidebar: React.FunctionComponent = () => {
             
 
                 <Git target='_blank' href="https://github.com/andrwnv/death-star-playground/tree/11-microservices-refactoring/docs">
-                    <ImgSub src={Subtract}/>
+                    <img src={Subtract}/>
                 </Git>
 
         </Navbar>
@@ -50,10 +43,8 @@ const Sidebar: React.FunctionComponent = () => {
     )
 }
 
+export default Sidebar
 
-
-const ImgSub = styled.img`
-`
 
 const ImgMain = styled.img`
     margin-top: -48px;
@@ -111,4 +102,4 @@ const Git = styled.a`
     align-items: end;
 `
 
-export default Sidebar
+

@@ -1,0 +1,75 @@
+.section-title {
+    justify-content: center;
+    text-align: center;
+    margin: 21px auto 0;
+    width: 343px;
+    height: 47px;
+    background-color: #373F7B;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: "Rubik";
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 7px 0;
+}
+
+
+
+.section-title--2{
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0 0 43px;
+    width: 287px;
+    height: 42px;
+    background-color: #373F7B;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: "Rubik";
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 7px 0;
+}
+
+.section-title-value{
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0 0 7px;
+    height: 42px;
+    background-color: #373F7B;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: "Rubik";
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+.section-title--3{
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0 0 64px;
+    width: 326px;
+    height: 47px;
+    background-color: #373F7B;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: "Rubik";
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 7px 22.5px 11px;
+}
+
+.section-title--4{
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0 0 64px;
+    width: 326px;
+    height: 42px;
+    background-color: #373F7B;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: "Rubik";
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 7px 0 11px;
+}

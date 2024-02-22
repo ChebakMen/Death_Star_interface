@@ -8,7 +8,6 @@ import EnergySystem from '../pages/EnergySystemPage';
 import AtmosferSystem from '../pages/AtmosferSystemPage';
 
 
-
 const App: React.FC = () => {
   return (
     <>
@@ -19,7 +18,6 @@ const App: React.FC = () => {
           <Route path='/energysystempage' element={<EnergySystem />} />    
           <Route path='/atmosfersystempage' element={<AtmosferSystem />} />
         </Routes>
-        
       </Router> 
     </>
   )
