@@ -1,8 +1,8 @@
 .liquid-storage {
     display: flex;
     flex-wrap: wrap;
-    width: 453px;
-    height: 312px;
+    min-width: 24vw;
+    min-height: 28vh;
     background-color: #1F2347;
     /* margin-top: 184px;
     margin-left: 251px; */

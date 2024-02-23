@@ -2,8 +2,8 @@
     display: flex;
     
     flex-wrap: wrap;
-    width: 453px;
-    height: 312px;
+    min-width: 24vw;
+    min-height: 28vh;
     background-color: #1F2347;
     /* margin-top: 184px; */
     z-index: -1;
@@ -47,7 +47,7 @@
     position: absolute;
     width: 33px;
     height: 33px;
-    background-color: #373F7B;
+    background-color: #373F7B;  
     border-radius: 6px;
     top: 50%;
     left: 50%;

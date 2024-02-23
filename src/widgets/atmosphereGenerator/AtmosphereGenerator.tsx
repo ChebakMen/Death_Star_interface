@@ -1,49 +1,38 @@
 import styled from 'styled-components';
-import React, { FC } from "react";
+import React, { FC, useState,ReactNode } from "react";
 import "./AtmosphereGenerator.css";
+import SectionTitle from 'entities/sectionTitle/SectionTitle'
+import StateElement from 'entities/StateElement/StateElement'
+
 
 
 const AtmosphereGenerator:FC = () => {
+    
+    const [duration, updateDuration] = useState<number>(80);
+    const [temperature, updateTemperature] = useState<number>(24);
+    const [pressure, updatePressure] = useState<number>(750);
+    const [humidity, updateHumidity] = useState<number>(60);
+
     return (
-      <div className="wrap">
-        <div className="title">
-            <h1 className="title--text">Генератор атмосферы</h1>
-        </div>
+        <>  
+        <div className="AtmosphereGenerator__wrap">
 
-        <div className="TextAndValue">
-            <p className="text">
-                Прочность
-            </p>
-            <div className="value">87%</div>
-        </div>
-        <div className="TextAndValue">
-            <p className="text">
-                Текущая температура
-            </p>
-            <div className="value">87%</div>
-        </div>
-        <div className="TextAndValue">
-            <p className="text">
-                Текущее давление
-            </p>
-            <div className="value">87%</div>
-        </div>
-        <div className="TextAndValue">
-            <p className="text">
-                Текущая влажность
-            </p>
-            <div className="value">87%</div>
-        </div>
+            <SectionTitle titleType={1} titleText="Генератор атмосферы" />
 
-        <div className="models">
-            <div className="models__bulb"></div>
-            <p className="text--modal">Работа аппаратов балансировки атмосферного давления</p>
+            <StateElement title="Прочность" value={duration} sign="%"/>
+            <StateElement title="Текущая температура" value={temperature} sign="°C"/>
+            <StateElement title="Текущее давление" value={pressure} sign="мм"/>
+            <StateElement title="Текущая влажность" value={humidity} sign="%"/>
+
+            <div className="models">
+                <div className="models__indicator"></div>
+                <p className="text--modal">Работа аппаратов балансировки атмосферного давления</p>
+            </div>
+
         </div>
-
-
-      </div>
-    );
+            
+        </>
+    )
 }
-
 
 export default AtmosphereGenerator;

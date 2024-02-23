@@ -1,18 +1,19 @@
-.wrap{
+.AtmosphereGenerator__wrap{
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 453px;
-    height: 312px;
+    
+    min-width: 24vw;
+    min-height: 28vh;
+    
+    
     background-color: #1F2347;
     box-sizing: border-box;
     border-radius: 24px;
+    z-index: -1;
     /* margin-top: 184px; */
 
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    
 }
 .title {
     justify-content: center;
@@ -35,10 +36,12 @@
 .TextAndValue{
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 379px;
+    margin-top: 1vh;
     
 }
-.text{
+.text--sz20{
     max-width: 235px;
     width: 100%;
     font-size: 20px;
@@ -55,14 +58,14 @@
     font-weight: 400;
 }
 
-.value{
+.value--sz30{
     display: block;
     text-align: center;
-    
-    max-width: 110px;
+   
+    max-width: 8vw;
     width: 100%;
     max-height: 40px;
-    padding: 9px 25px;
+    padding: 3px ;
     font-weight: 500;
     font-size: 30px;
     font-family: "Rubik", sans-serif;
@@ -77,7 +80,40 @@
     border-radius: 8px;
 }
 
-.value:first-child{
-    margin-top: 20px;
+
+.models{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1vh;
 }
+
+.models__indicator {
+    width: 24.2px;
+    height: 24.2px;
+    border-radius: 4px;
+    background-color: #45FF27;
+    margin-right: 25px;
+    
+
+}
+
+.models__indicator::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    background-color: #373F7B;
+    border-radius: 6px;
+    z-index: -1;
+    /* Расположение блока ВОПРООООС */
+    margin-top: -0.5vh;
+    margin-left: -0.5vh;
+    
+    
+}
+
+
 
