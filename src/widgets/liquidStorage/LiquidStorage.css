@@ -4,9 +4,14 @@
     width: 453px;
     height: 312px;
     background-color: #1F2347;
-    margin-top: 184px;
-    margin-left: 251px;
+    /* margin-top: 184px;
+    margin-left: 251px; */
     border-radius: 24px;
+
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 .liquid-storage-container {

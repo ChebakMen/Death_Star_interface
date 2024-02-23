@@ -7,7 +7,12 @@
     background-color: #1F2347;
     box-sizing: border-box;
     border-radius: 24px;
-    margin-top: 184px;
+    /* margin-top: 184px; */
+
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 .title {
     justify-content: center;
@@ -44,6 +49,7 @@
 .text--modal{
     font-family: "Rubik", sans-serif;
     max-width: 240px;
+    
     font-size: 15px;
     color:#A5A7B5;
     font-weight: 400;
