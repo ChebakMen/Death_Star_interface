@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    background-color: #1F2347;
+    
+}
+
+.navbar__icon{
+    
+}
+
+
+
+.test {
+    font-family: 'DeathStar', sans-serif; /* Если шрифт не найден, используем sans-serif */
+}
