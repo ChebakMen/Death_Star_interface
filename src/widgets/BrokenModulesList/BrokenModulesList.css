@@ -1,3 +1,47 @@
-.pop{
-    right: 0;
+.brokenModulesList__cont{
+    margin-top: 4vh;
+    width: 28vw;
+    background-color: #1F2347;
+    border-radius: 24px;
+    
 }
+
+.brokenModulesList__title{
+    font-size: 38px;
+    font-family: "Rubik";
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    padding-top: 1vh;
+    margin-bottom: 2vh;
+    
+}
+
+.brokenModulesList__info-moduls{
+    padding: 24vh 7vw;
+}
+
+
+/* display: flex;
+    align-items: center;
+    margin-left: 13vw;
+    margin-top: 5vh;
+    font-weight: 500;
+    width: 962px;
+    height: 104px;
+    background-color: #1F2347;
+    font-family: 'DeathStar', sans-serif;
+    padding: 7px 22px 12px;
+    font-size: 50px;
+    border-radius: 24px;
+    
+    
+    text-align: center;
+    margin: 10px auto 0;
+    padding: 7px 0;
+    background-color: #373F7B;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: "Rubik";
+    color: #FFFFFF;
+    border-radius: 8px;*/

@@ -12,7 +12,7 @@ const BrokenModule:FC = () =>{
         <div className="brokenModule__cont">
             <h3 className="brokenModule__title">Модуль</h3>
             
-        </div>
+        </div> 
     )
 }
 

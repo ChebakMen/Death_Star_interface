@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import "styles/HomePage.css"
 
 import LiquidStorage from '../widgets/liquidStorage/LiquidStorage'
 import AtmosphereGenerator from '../widgets/atmosphereGenerator/AtmosphereGenerator'
@@ -7,27 +8,29 @@ import Magneticsystem from 'widgets/magneticSystem/Magneticsystem'
 import SectionTitle from 'entities/sectionTitle/SectionTitle'
 import PlasmaGenerator from 'widgets/plasmaGenerator/PlasmaGenerator'
 import LiquidCooler from 'widgets/liquidCooler/LiquidCooler'
+import AccountStormtrooper from 'entities/accountStormtrooper/AccountStormtrooper'
 import BrokenModulesList from 'widgets/BrokenModulesList/BrokenModulesList'
 
 const Home: React.FunctionComponent = () => {
     return (
         <>  
-            
-            <SectionTitle titleType={3} titleText="DEATH STAR" />
+            <div className="home__container">
+                <SectionTitle titleType={3} titleText="DEATH STAR" />
+                <AccountStormtrooper />
+                <HomeCont__grid>
 
-            <HomeCont>
+                    <LiquidStorage />
 
-                <LiquidStorage />
-
-                <Magneticsystem/>
-                <AtmosphereGenerator/>
-                <Blocs>
-                    <PlasmaGenerator/>
-                    <LiquidCooler/>
-                </Blocs>
-            </HomeCont>
-
-            {/* <BrokenModulesList /> */}
+                    <Magneticsystem/>
+                    <AtmosphereGenerator/>
+                    <Blocs>
+                        <PlasmaGenerator/>
+                        <LiquidCooler/>
+                    </Blocs>
+                </HomeCont__grid>
+                
+                <BrokenModulesList />
+            </div>
         </>
     )   
 }
@@ -35,7 +38,7 @@ const Home: React.FunctionComponent = () => {
 export default Home
 
 
-const HomeCont = styled.div`
+const HomeCont__grid = styled.div`
     
     display: grid;
     gap: 57px;
@@ -57,4 +60,6 @@ const Blocs = styled.div`
     grid-row-start: 2;
     grid-row-end: 2;
 `
+
+
 
