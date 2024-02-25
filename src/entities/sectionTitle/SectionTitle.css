@@ -1,75 +1,55 @@
-.section-title {
-    justify-content: center;
+.section-title{
     text-align: center;
     margin: 10px auto 0;
-    width: 343px;
-    height: 47px;
+    padding: 7px 0;
     background-color: #373F7B;
     font-weight: 600;
     font-size: 25px;
     font-family: "Rubik";
     color: #FFFFFF;
     border-radius: 8px;
-    padding: 7px 0;
+    
 }
 
+.section-title--h1 {
+    width: 343px;
+    height: 47px;
+}
 
-
-.section-title--2{
-    justify-content: center;
-    text-align: center;
+.section-title--h2{
     margin: 10px 0 0 43px;
     width: 287px;
     height: 42px;
-    background-color: #373F7B;
-    font-weight: 600;
-    font-size: 25px;
+}
+
+.section-title--h3{
+    margin: 10px 0 0 64px;
+    width: 326px;
+    height: 42px;
     font-family: "Rubik";
-    color: #FFFFFF;
-    border-radius: 8px;
-    padding: 7px 0;
+    padding: 7px 0 11px;
 }
 
 .section-title-value{
-    justify-content: center;
-    text-align: center;
     margin: 10px 0 0 7px;
     height: 42px;
-    background-color: #373F7B;
     font-weight: 400;
-    font-size: 25px;
-    font-family: "Rubik";
-    color: #FFFFFF;
-    border-radius: 8px;
     padding: 6px 12px;
 }
 
-.section-title--3{
-    justify-content: center;
-    text-align: center;
-    margin: 10px 0 0 64px;
-    width: 326px;
-    height: 47px;
-    background-color: #373F7B;
-    font-weight: 600;
-    font-size: 25px;
-    font-family: "Rubik";
-    color: #FFFFFF;
-    border-radius: 10px;
-    padding: 7px 22.5px 11px;
+.section-title--ds{
+    display: flex;
+    align-items: center;
+    margin-left: 13vw;
+    margin-top: 5vh;
+    font-weight: 500;
+    width: 962px;
+    height: 104px;
+    background-color: #1F2347;
+    font-family: 'DeathStar', sans-serif;
+    padding: 7px 22px 12px;
+    font-size: 50px;
+    border-radius: 24px;
+
 }
 
-.section-title--4{
-    justify-content: center;
-    text-align: center;
-    margin: 10px 0 0 64px;
-    width: 326px;
-    height: 42px;
-    background-color: #373F7B;
-    font-weight: 600;
-    font-size: 25px;
-    font-family: "Rubik";
-    color: #FFFFFF;
-    border-radius: 10px;
-    padding: 7px 0 11px;
-}

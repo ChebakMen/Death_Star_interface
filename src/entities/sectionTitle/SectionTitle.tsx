@@ -13,28 +13,28 @@ interface SectionTitleProps {
     if (titleType === 1) {
       titleContent = (
         <>
-          <h2 className="section-title">{titleText}</h2>
+          <h2 className="section-title section-title--h1">{titleText}</h2>
         </>
       );
     } else if(titleType === 2) {
       titleContent = (
         <>
-            <h2 className="section-title--2">{titleText}</h2>
-            <span className="section-title-value">{value}%</span>
+            <h2 className="section-title section-title--h2">{titleText}</h2>
+            <span className="section-title section-title-value">{value}%</span>
         </>
       );
     }
     else if(titleType === 3) {
         titleContent = (
           <>
-              <h2 className="section-title--3">{titleText}</h2>
+              <h2 className="section-title section-title--ds">{titleText}</h2>
           </>
         );
       }
     else {
         titleContent = (
           <>
-              <h2 className="section-title--4">{titleText}</h2>
+              <h2 className="section-title section-title--h3">{titleText}</h2>
           </>
         );
       }

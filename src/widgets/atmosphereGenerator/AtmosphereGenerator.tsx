@@ -13,7 +13,7 @@ const AtmosphereGenerator:FC = () => {
     const [pressure, updatePressure] = useState<number>(750);
     const [humidity, updateHumidity] = useState<number>(60);
 
-    return (
+    return ( 
         <>  
         <div className="AtmosphereGenerator__wrap">
 

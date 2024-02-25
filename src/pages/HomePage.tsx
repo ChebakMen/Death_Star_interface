@@ -7,25 +7,27 @@ import Magneticsystem from 'widgets/magneticSystem/Magneticsystem'
 import SectionTitle from 'entities/sectionTitle/SectionTitle'
 import PlasmaGenerator from 'widgets/plasmaGenerator/PlasmaGenerator'
 import LiquidCooler from 'widgets/liquidCooler/LiquidCooler'
-
+import BrokenModulesList from 'widgets/BrokenModulesList/BrokenModulesList'
 
 const Home: React.FunctionComponent = () => {
     return (
         <>  
-        
-            {/* <SectionTitle titleType={1} titleText="Жидкостное хранилище" /> */}
+            
+            <SectionTitle titleType={3} titleText="DEATH STAR" />
 
             <HomeCont>
 
-                    <LiquidStorage />
+                <LiquidStorage />
 
-                    <Magneticsystem/>
-                    <AtmosphereGenerator/>
-                    <Blocs>
-                        <PlasmaGenerator/>
-                        <LiquidCooler/>
-                    </Blocs>
+                <Magneticsystem/>
+                <AtmosphereGenerator/>
+                <Blocs>
+                    <PlasmaGenerator/>
+                    <LiquidCooler/>
+                </Blocs>
             </HomeCont>
+
+            {/* <BrokenModulesList /> */}
         </>
     )   
 }
@@ -39,8 +41,8 @@ const HomeCont = styled.div`
     gap: 57px;
     width: 962px;
     height: 682px;
-    margin-left: 252px;
-    margin-top: 174px;
+    margin-left: 13vw;
+    margin-top: 4vh;
     grid-template-columns: repeat(2, 453px);
     grid-template-rows: repeat(2, 312px);
 

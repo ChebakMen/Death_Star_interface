@@ -7,7 +7,7 @@ describe('StateElement', () => {
     const props = {
       title: 'Test Title',
       value: 100,
-      sign: '%'
+      sign: '%' 
     };
 
     const { getByText } = render(<StateElement {...props} />);

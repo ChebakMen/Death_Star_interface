@@ -108,9 +108,8 @@
     background-color: #373F7B;
     border-radius: 6px;
     z-index: -1;
-    /* Расположение блока ВОПРООООС */
-    margin-top: -0.5vh;
-    margin-left: -0.5vh;
+    margin-top: -5px;
+    margin-left: -5px;
     
     
 }
