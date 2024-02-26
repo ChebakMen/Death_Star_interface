@@ -45,3 +45,23 @@
     font-family: "Rubik";
     color: #FFFFFF;
     border-radius: 8px;*/
+
+    .brokenModulesList__text--fz27{
+    
+        font-weight: 400;
+        font-family: "Rubik";
+        color: #FFFFFF;
+        font-size: 27px;
+        margin-bottom: 6px;
+        text-align: center;
+    }
+    .brokenModulesList__text--fz15{
+        
+        font-weight: 400;
+        font-family: "Rubik";
+        color: #62657E;
+        font-size: 15px;
+        margin-bottom: 6px;
+        text-align: center;
+    }
+    
