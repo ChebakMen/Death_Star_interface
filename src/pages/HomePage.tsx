@@ -16,7 +16,7 @@ const Home: React.FunctionComponent = () => {
         <>  
             <div className="home__container">
                 <SectionTitle titleType={3} titleText="DEATH STAR" />
-                <AccountStormtrooper />
+                <AccountStormtrooper numer={1}/>
                 <HomeCont__grid>
 
                     <LiquidStorage />

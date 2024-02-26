@@ -46,10 +46,21 @@
     width: 962px;
     height: 104px;
     background-color: #1F2347;
-    font-family: 'DeathStar', sans-serif;
+    font-family: 'DeathStar', "Rubik";
     padding: 7px 22px 12px;
     font-size: 50px;
     border-radius: 24px;
 
+}
+
+.section-title--atmosfere{
+    margin-left: 13vw;
+    margin-top: 5vh;
+    width: 1062px;
+    height: 81px;
+    font-size: 50px;
+    background-color: #1F2347;
+    font-weight: 400;
+    border-radius: 18px;
 }
 
