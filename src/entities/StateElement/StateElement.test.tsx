@@ -10,7 +10,7 @@ describe('StateElement', () => {
       sign: '%' 
     };
 
-    const { getByText } = render(<StateElement {...props} />);
+    const { getByText } = render(<StateElement type={1} {...props} />);
 
     const titleElement = getByText(props.title);
     const valueElement = getByText(`${props.value}${props.sign}`);

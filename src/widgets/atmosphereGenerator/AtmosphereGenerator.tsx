@@ -19,10 +19,10 @@ const AtmosphereGenerator:FC = () => {
 
             <SectionTitle titleType={1} titleText="Генератор атмосферы" />
 
-            <StateElement title="Прочность" value={duration} sign="%"/>
-            <StateElement title="Текущая температура" value={temperature} sign="°C"/>
-            <StateElement title="Текущее давление" value={pressure} sign="мм"/>
-            <StateElement title="Текущая влажность" value={humidity} sign="%"/>
+            <StateElement type={1} title="Прочность" value={duration} sign="%"/>
+            <StateElement type={1} title="Текущая температура" value={temperature} sign="°C"/>
+            <StateElement type={1} title="Текущее давление" value={pressure} sign="мм"/>
+            <StateElement type={1} title="Текущая влажность" value={humidity} sign="%"/>
 
             <div className="models">
                 <div className="models__indicator"></div>

@@ -11,12 +11,15 @@
 
 .accountStormtrooper__cont--w500{
     width: 28vw;
+    height: 11.2vh;
+    margin-right: 3.3vw;
 }
 
 .accountStormtrooper__cont--w400{
     width: 23vw;
     margin-left: 4vw;
-
+    height: 11.8vh;
+    margin-right: 2.7vw;
 }
 
 
