@@ -1,19 +1,23 @@
-import { FC, useState } from "react";
+import "./BrokenModule.css";
 
-
-import "./BrokenModule.css"
-
-const BrokenModule:FC = () =>{
-
-    const [modulName, updateModulName] = useState<string>('BB-E8E3');
-    const [temperature, updateTemperature] = useState<number>(24);
-
-    return (
-        <div className="brokenModule__cont">
-            <h3 className="brokenModule__title">Модуль</h3>
-            
-        </div> 
-    )
+interface BrokenModuleProps {
+    name: string;
+    reason: string;
+    location: string;
+    
 }
 
+const BrokenModule: React.FC<BrokenModuleProps> = ({ name, reason, location }) => (
+    <div className="brokenModule__cont">
+        <div className="brokenModule__title">
+            <h3 className="brokenModule__title--h3">Модуль:</h3>
+            <h3 className="brokenModule__title--mn">{name}</h3>
+        </div>
+        <p className="brokenModule__text">Причина поломки: {reason}</p>
+        <p className="brokenModule__text">Местонахождение: {location}</p>
+    </div>
+  );
+
 export default BrokenModule;
+
+

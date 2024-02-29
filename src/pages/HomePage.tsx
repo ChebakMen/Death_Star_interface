@@ -12,6 +12,7 @@ import AccountStormtrooper from 'entities/accountStormtrooper/AccountStormtroope
 import BrokenModulesList from 'widgets/BrokenModulesList/BrokenModulesList'
 
 const Home: React.FunctionComponent = () => {
+    
     return (
         <>  
             <div className="home__container">
@@ -30,6 +31,7 @@ const Home: React.FunctionComponent = () => {
                 </HomeCont__grid>
                 
                 <BrokenModulesList />
+                
             </div>
         </>
     )   
