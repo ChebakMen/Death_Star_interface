@@ -90,26 +90,27 @@
 }
 
 .models__indicator {
-    width: 24.2px;
-    height: 24.2px;
-    border-radius: 4px;
+    width: 28px;
+    height: 28px;
+    border-radius: 5px;
     background-color: #45FF27;
     margin-right: 25px;
     
-
+    position: relative;
 }
 
 .models__indicator::after {
     content: "";
     display: block;
-    position: absolute;
-    width: 33px;
-    height: 33px;
-    background-color: #373F7B;
-    border-radius: 6px;
-    z-index: -1;
-    margin-top: -5px;
-    margin-left: -5px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #373F7B;  
+    border-radius: 7px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1
     
     
 }

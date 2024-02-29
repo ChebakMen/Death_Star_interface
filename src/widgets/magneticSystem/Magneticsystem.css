@@ -1,6 +1,6 @@
 .magnetic-system {
     display: flex;
-    
+    position: relative;
     flex-wrap: wrap;
     min-width: 24vw;
     min-height: 28vh;
@@ -44,7 +44,7 @@
 .magnetic-system--inductor-indicator::after {
     content: "";
     display: block;
-    position: absolute;
+    position: relative;
     width: 33px;
     height: 33px;
     background-color: #373F7B;  
