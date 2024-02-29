@@ -1,0 +1,5 @@
+.home__container{
+    display: grid;
+    grid-template-columns: 68vw 28vw;
+    grid-template-rows: 16vh 75vh;
+}

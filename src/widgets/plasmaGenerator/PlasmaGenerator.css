@@ -1,0 +1,40 @@
+.plasma-generator{
+    display: flex;
+    
+    flex-wrap: wrap;
+    width: 453px;
+    height: 143px;
+    background-color: #1F2347;
+    /* margin-top: 184px; */
+    z-index: -1;
+    border-radius: 24px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.plasma-generator-container{
+    display: flex;
+    width: 388px;
+    margin: 0 auto 35px auto;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.plasma-generator-text{
+    font-family: "Rubik";
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.plasma-generator-value{
+    font-family: "Rubik";
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 4px 54px;
+    background-color: #373F7B;
+    border-radius: 8px;
+}

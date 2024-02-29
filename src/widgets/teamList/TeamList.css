@@ -1,0 +1,75 @@
+.teamList__cont{
+    width: 24.3987vw;
+    height: 17.5987vw;
+    background-color: #373F7B;
+    border-radius: 10px;
+    margin-bottom: 4.5197vh;
+    
+}
+
+.teamList__title{
+    font-size: 30px;
+    font-family: "Rubik";
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    padding-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+.teamList__team-items{
+    padding: 0 1.2498vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+
+.teamList__team-items-name{
+    font-size: 23px;
+    font-family: "Rubik";
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+    
+}
+
+.teamList__team-items-status{
+    padding: 0.5197vh 1.1176vw;
+    background-color: #1F2347;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Rubik";
+    border-radius: 6px;
+
+}
+
+.teamList__team-items-btn{
+    background-color: #D5D831;
+    border: 0;
+    border-radius: 6px;
+    padding: 0.5197vh 1.064vw;
+    color: #161A3C;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Rubik";
+    cursor: pointer;
+}
+.teamList__team-items-btn:hover{
+    background-color:#FDFF84;
+    transition: background-color 0.5s;
+}
+
+.teamList__team-items-btn--dis{
+    background-color: #D5D831;
+    border: 0;
+    border-radius: 6px;
+    padding: 0.5197vh 1.064vw;
+    color: #161A3C;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Rubik";
+    opacity: 30%;
+    pointer-events: none;
+
+}

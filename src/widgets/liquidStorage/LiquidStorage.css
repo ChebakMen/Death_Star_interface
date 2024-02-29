@@ -1,20 +1,29 @@
 .liquid-storage {
     display: flex;
-    width: 453px;
-    height: 312px;
+    flex-wrap: wrap;
+    min-width: 24vw;
+    min-height: 28vh;
     background-color: #1F2347;
-    margin-top: 184px;
-    margin-left: 251px;
+    /* margin-top: 184px;
+    margin-left: 251px; */
     border-radius: 24px;
+
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 .liquid-storage-container {
     width: 100%;
+    display: flex;
 }
 
 .liquid-storage-level {
     margin-top: 40px;
     margin-left: 55px;
+    margin-bottom: 30px;
+    margin-right: auto;
     width: 92px;
     height: 170px;
     border: 7px solid #373F7B;
@@ -40,4 +49,47 @@
     color: #FFFFFF;
     border-radius: 8px;
     padding: 7px 16px;
+}
+
+.liquid-storage-indicator{
+    display: flex;
+    width: 187px;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.liquid-storage-indicators-text{
+    font-family: "Rubik";
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.liquid-storage-indicators-value{
+    font-family: "Rubik";
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 6px 15px 7px 17px;
+    background-color: #373F7B;
+    border-radius: 8px;
+    
+}
+
+.indicators{
+    display: flex;
+    flex-direction: column;
+    margin-right: 56px;
+    margin-top: 55px;
+    gap: 28px;
+}
+
+.refill{
+    width: 117px;
+    height: 30px;
+    background-color: #D5D831;
+    color: #161A3C;
+    font-size: 15px;
+    font-family: "Rubik";
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }

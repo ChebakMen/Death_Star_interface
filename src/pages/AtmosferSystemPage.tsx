@@ -1,3 +1,5 @@
+import AccountStormtrooper from 'entities/accountStormtrooper/AccountStormtrooper'
+import SectionTitle from 'entities/sectionTitle/SectionTitle'
 import React from 'react'
 import styled from 'styled-components'
 
@@ -7,17 +9,14 @@ import styled from 'styled-components'
 const AtmosferSystem: React.FunctionComponent = () => {
     return (
         
-        <AtmosferSystemText>AtmosferSystem</AtmosferSystemText>
+        <div className="home__container">
+                <SectionTitle titleType={5} titleText="Система генератора атмосферы корабля"/>
+                <AccountStormtrooper numer={2} />
+                
+            </div>
     )
 }
 
 export default AtmosferSystem
 
-const AtmosferSystemText = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 50px;
-    height: 70vh;
-`
 
